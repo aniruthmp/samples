@@ -13,8 +13,9 @@
 	</properties> -->
 <!--	
 	<scm>
-		<url>https://gitlab.com:bekirby/samples/tree/master</url>
+		<url>https://gitlab.com:bekirby/samples/tree/master</url> -->
 		<!-- url>https://sfgitlab.opr.statefarm.org:pcf-admins/hello/tree/master</url -->
+		<!-->
 		<tag>HEAD</tag>
 	</scm>
 -->
