@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HelloWorldWeb</groupId>
+  <artifactId>HelloWorldWeb</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>HelloWorldWeb Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+<!--   	<properties>
+		<artifact-deployer-plugin.version>1.3.5.RELEASE</artifact-deployer-plugin.version>
+	</properties> -->
+	
+	<scm>
+		<url>https://gitlab.com:bekirby/samples/tree/master</url>
+		<!-- url>https://sfgitlab.opr.statefarm.org:pcf-admins/hello/tree/master</url -->
+		<tag>HEAD</tag>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+<!-- 	<distributionManagement>
+		<repository>
+			<id>lt00asc0</id>
+			<name>lt00asc0.opr.statefarm.org-releases</name>
+			<url>http://lt00asc0.opr.statefarm.org/artifactory/libs-releases-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>lt00asc0</id>
+			<name>lt00asc0.opr.statefarm.org-snapshots</name>
+			<url>http://lt00asc0.opr.statefarm.org/artifactory/libs-snapshots-local</url>
+		</snapshotRepository>
+	</distributionManagement> -->
+  
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

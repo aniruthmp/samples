@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-yaml
+  memory: 512M
+  instances: 1
+  path: target/HelloWorldWeb-0.0.1-SNAPSHOT.war
+  env:
+    JBP_CONFIG_TOMCAT: "{ tomcat: { external_configuration_enabled: true }, external_configuration: { repository_root: \"https://gitlab.com/bekirby/samples/tree/master/\" } }" 
