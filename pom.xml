@@ -11,13 +11,13 @@
 <!--   	<properties>
 		<artifact-deployer-plugin.version>1.3.5.RELEASE</artifact-deployer-plugin.version>
 	</properties> -->
-	
+<!--	
 	<scm>
 		<url>https://gitlab.com:bekirby/samples/tree/master</url>
 		<!-- url>https://sfgitlab.opr.statefarm.org:pcf-admins/hello/tree/master</url -->
 		<tag>HEAD</tag>
 	</scm>
-
+-->
 	<repositories>
 		<repository>
 			<id>repo.jenkins-ci.org</id>
